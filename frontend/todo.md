@@ -1,0 +1,1 @@
+- fix movie card

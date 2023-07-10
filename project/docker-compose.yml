@@ -1,0 +1,35 @@
+version: "3"
+name: "movie"
+services:
+  postgres:
+    build:
+      context: ./../db
+      dockerfile: ./../db/Dockerfile
+    ports:
+      - "5432:5432"
+    restart: always
+    deploy:
+      mode: replicated
+      replicas: 1
+    volumes:
+      - ./../db/data/postgres/:/var/lib/postgresql/data
+  backend:
+    build:
+      context: ./../backend
+      dockerfile: ./../backend/Dockerfile
+    restart: always
+    ports:
+      - "4000:4000"
+    deploy:
+      mode: replicated
+      replicas: 1
+  frontend:
+    build:
+      context: ./../frontend
+      dockerfile: ./../frontend/Dockerfile
+    restart: always
+    ports:
+      - "3000:3000"
+    deploy:
+      mode: replicated
+      replicas: 1
