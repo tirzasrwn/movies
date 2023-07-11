@@ -153,3 +153,4 @@ go.work
 
 postgres
 backend/docs/*
+todo.md
