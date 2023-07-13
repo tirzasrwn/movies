@@ -146,10 +146,9 @@ function App() {
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="navbar-center">
             <a className="btn btn-ghost normal-case text-xl">Movie</a>
           </div>
+          <div className="navbar-center"></div>
           <div className="navbar-end">
             <select className="select" data-choose-theme>
               <option disabled value="">
