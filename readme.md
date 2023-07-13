@@ -1,5 +1,7 @@
 # Movie
 
+![movie-lg](./project/docs/images/movie-lg.png)
+
 ## About
 
 This's just a repository for me to learn about CRUD in modern web development.
@@ -12,6 +14,7 @@ This's just a repository for me to learn about CRUD in modern web development.
 - React
 - Tailwind CSS
 - DaisyUI
+- GraphQL
 
 ### Backend
 
@@ -20,6 +23,7 @@ This's just a repository for me to learn about CRUD in modern web development.
 - Swagger API Documentation
 - JWT
 - Postgres
+- GraphQL
 
 ### DevOps
 
@@ -28,4 +32,4 @@ This's just a repository for me to learn about CRUD in modern web development.
 
 ## Documentation
 
-More documentation you can find it [here](./project/docs/readme.md).
+More documentation you can find it [here](./project/docs/readme.md). More visual documentation you can find in ./project/docs/images/ directory.

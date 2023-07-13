@@ -14,6 +14,7 @@ cd project
 make up
 # stop the services
 make down
+# visit localhost:3000 to open the website
 ```
 
 # Services
@@ -30,3 +31,9 @@ make docker_start
 # to stop and remove the docker image that running
 make docker_stop
 ```
+
+# Ports
+
+- frontend: 3000
+- backend: 4000
+- db: 5432
